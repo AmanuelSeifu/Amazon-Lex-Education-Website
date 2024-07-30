@@ -1,0 +1,91 @@
+.Home {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(20px + 2vmin);
+    color: white;
+    gap:0px; 
+}
+
+
+.Options {
+    display: flex;
+    flex-direction:row;
+    padding-top:40px;
+    align-items: center;
+    gap:40px;
+}
+
+.Train {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.Code {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background-color: transparent;
+    border: 2px solid #FFA800;
+    border-radius: 20px;
+    align-items: center;
+    padding:20px;
+}
+
+.Use {
+    margin:0px;
+}
+
+.CodeInp {
+    background-color: transparent;
+    border: 2px solid #FFA800;
+    border-radius: 5px;
+    text-align: center;
+    height:50px;
+    width:240px;
+    font-size: calc(7px + 2vmin);
+    color:white;
+}
+
+
+.OrStyleVert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.breakVert {
+    height:150px;
+    width:0px;
+    color:transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.OrTextVert {
+    margin:0px;
+}
+
+
+.ChooseButton {
+    width: 250px;
+    height: 50px;
+    margin:0;
+    background-color: transparent;
+    border: 2px solid #FFA800;
+    border-radius: 20px;
+    font-size: calc(10px + 2vmin);
+    color:white;
+    cursor:pointer;
+}
+
+.ChooseButton:disabled {
+    opacity: .5;
+    cursor:auto;
+}
+
+.ProfileInp:disabled {
+    color:blue;
+}
+  
+

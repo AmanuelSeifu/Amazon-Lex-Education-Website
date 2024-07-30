@@ -1,0 +1,132 @@
+.Account {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(20px + 2vmin);
+    color: white;
+    gap:0px;
+}
+
+.Details {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:50px;
+    padding-top:40px;
+}
+
+.AccountImage {
+    width:100px;
+    height:100px;
+}
+
+.AccountBox {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    
+}
+
+.AccountInfo {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+
+.InfoText {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.BotGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:400px;
+    height: 400px;
+    border: 2px solid #FFA800;
+    border-radius:15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* padding-bottom: 15px; */
+}
+
+.BotBox {
+    display: flex;
+    flex-direction: column;
+    width:400px;/*360*/
+    height: 300px;
+    border-top: 2px solid #FFA800;
+    /* border-radius:10px; */
+    gap:20px;
+    overflow: auto;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.breakAcc {
+    height:400px;
+}
+
+.BotTitle {
+    margin:10px;
+
+}
+
+
+.BotContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    width:320px;
+    border: 2px solid #FFA800;
+    border-radius:10px;
+    padding: 10px;
+}
+
+.BotDesc {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.BotText {
+    margin:0px;
+    width:200px;
+    overflow:auto;
+}
+
+.DelBut {
+    margin:0px;
+}
+
+.BotIconDesc {
+    width:40px;
+    height:40px;
+}
+
+.DelBut {
+    
+    width:30px;
+    height:30px;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    margin-bottom:10px;
+    margin-right:15px;
+}
+
+.DelBotIcon {
+    width:15px;
+    height:15px;
+    border: 2px solid #FFA800;
+    border-radius:10px;
+    padding:10px;
+
+}

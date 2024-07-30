@@ -1,0 +1,125 @@
+.LogIn {
+    position: relative;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(20px + 2vmin);
+    color: white;
+    gap:0px;
+}
+
+.LogInTitle {
+    margin:0;
+    padding:20px;
+    border: 2px solid #FFA800;
+    border-radius: 10px;
+}
+
+.Button {
+    width: 320px;
+    height: 50px;
+    margin:0;
+    background-color: transparent;
+    border: 2px solid #FFA800;
+    border-radius: 20px;
+    font-size: calc(10px + 2vmin);
+    color:white;
+    cursor:pointer;
+}
+
+.Button:disabled {
+    opacity: .5;
+}
+
+.LogBox {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FFA800;
+    width: 350px;
+    height:250px;
+    border-radius: 20px;
+    gap:15px;
+    margin-top: 40px;
+    align-items: center;
+    padding-top:20px;
+}
+
+.Inp {
+    background-color: transparent;
+    border: 2px solid #FFA800;
+    border-radius: 5px;
+    height:50px;
+    width:300px;
+    font-size: calc(7px + 2vmin);
+    padding-left: 15px;
+    color:white;
+}
+
+.link {
+    margin-top: 0;
+    color:white;
+    font-size: calc(2px + 2vmin);
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.break {
+    height:0;
+    width:300px;
+    color:transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.OrStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    margin: 0px;
+}
+
+.OrText {
+    margin:20px;
+}
+
+
+.CreateBox {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FFA800;
+    width: 350px;
+    height:330px;
+    border-radius: 20px;
+    gap:15px;
+    margin-top: 40px;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.Credit {
+    border: 2px solid #FFA800;
+    border-radius: 15px;
+    background-color: #232f3e;
+    align-self: start;
+    margin-left: 10px;
+    margin-top: 60px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.CreditLink {
+    width: 110px;
+    height: 40px;
+}
+
+.CreditImage {
+    width: 110px;
+    height: 40px;
+}
+
+.AlrdyAcc {
+    font-size: 16px;;
+}
