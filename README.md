@@ -4,6 +4,8 @@ This website is an Amazone Lex Wrapper where teachers can make an account or log
 
 ![alt text](./login-page.png)
 
+![alt text](./start-page.png)
+
 ![alt text](./train-page.png)
 
 ![alt text](./chat-page.png)
